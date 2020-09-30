@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Report</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+</head>
+
+<body>
+    <br />
+    <h2>
+        <strong>Allergens</strong>
+    </h2>
+    <br />
+
+    <div class="container">
+        {{#each Allergens}}
+        <div>
+            <h4>
+                <strong>{{name}}</strong>
+            </h4>
+            <input type="checkbox" {{#if allergens.[0]}} checked {{/if}}/>
+            <span>Cereals containing gluten</span>
+            <br>
+            <input type="checkbox" {{#if allergens.[1]}} checked {{/if}}/>
+            <span>Crustaceans</span>
+            <br>
+            <input type="checkbox" {{#if allergens.[2]}} checked {{/if}}/>
+            <span>Eggs</span>
+            <br>
+            <input type="checkbox" {{#if allergens.[3]}} checked {{/if}}/>
+            <span>Fish</span>
+            <br>
+            <input type="checkbox" {{#if allergens.[4]}} checked {{/if}}/>
+            <span>Peanuts</span>
+            <br>
+            <input type="checkbox" {{#if allergens.[5]}} checked {{/if}}/>
+            <span>Soybeans</span>
+            <br>
+            <input type="checkbox" {{#if allergens.[6]}} checked {{/if}}/>
+            <span>Milk</span>
+            <br>
+            <input type="checkbox" {{#if allergens.[7]}} checked {{/if}}/>
+            <span>Nuts</span>
+            <br>
+            <input type="checkbox" {{#if allergens.[8]}} checked {{/if}}/>
+            <span>Celery</span>
+            <br>
+            <input type="checkbox" {{#if allergens.[9]}} checked {{/if}}/>
+            <span>Mustard</span>
+            <br>
+            <input type="checkbox" {{#if allergens.[10]}} checked {{/if}}/>
+            <span>Sesame seeds</span>
+            <br>
+            <input type="checkbox" {{#if allergens.[11]}} checked {{/if}}/>
+            <span>Sulphur dioxide and sulphites</span>
+            <br>
+            <input type="checkbox" {{#if allergens.[12]}} checked {{/if}}/>
+            <span>Lupin</span>
+            <br>
+            <input type="checkbox" {{#if allergens.[13]}} checked {{/if}}/>
+            <span>Molluscs</span>
+        </div>
+        <br> {{/each}}
+    </div>
+    <br />
+    <br />
+</body>
+
+</html>

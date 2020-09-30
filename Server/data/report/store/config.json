@@ -1,0 +1,18 @@
+{
+    "folder": {
+        "shortid": "AmiCiW9"
+    },
+    "shortid": "SyxNZmA3xU",
+    "name": "store",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": "2020-01-15T17:59:37.369Z",
+    "modificationDate": {
+        "$$date": 1582231544797
+    },
+    "_id": "sdTkOMMzUD6PahYq",
+    "$entitySet": "templates"
+}

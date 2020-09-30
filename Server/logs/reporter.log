@@ -1,0 +1,595 @@
+2020-01-15T17:41:18.084Z - info: Initializing jsreport@2.6.1 in development mode using configuration file: jsreport.config.json
+2020-01-15T17:41:18.086Z - info: Searching for available extensions in C:\Users\aruca\Documents\report\
+2020-01-15T17:41:18.091Z - info: Extensions location cache doesn't contain entry yet, crawling
+2020-01-15T17:41:18.875Z - info: Found 35 extensions
+2020-01-15T17:41:19.113Z - info: Setting http-server strategy for rendering
+2020-01-15T17:41:19.341Z - info: Using extension handlebars@2.1.0
+2020-01-15T17:41:19.346Z - info: Using extension jsrender@2.1.1
+2020-01-15T17:41:19.348Z - info: Using extension templates@2.3.2
+2020-01-15T17:41:19.351Z - info: Using extension import-export@1.4.0
+2020-01-15T17:41:19.403Z - info: Using extension freeze@2.0.0
+2020-01-15T17:41:19.406Z - info: Using extension cli@2.1.1
+2020-01-15T17:41:19.407Z - info: Using extension express@2.5.0
+2020-01-15T17:41:19.565Z - info: Using extension debug@2.1.1
+2020-01-15T17:41:19.567Z - info: Using extension tags@2.3.0
+2020-01-15T17:41:19.570Z - info: Using extension docx@2.3.1
+2020-01-15T17:41:19.600Z - info: Using extension chrome-pdf@1.6.1
+2020-01-15T17:41:19.679Z - info: Using extension fs-store@2.6.0
+2020-01-15T17:41:19.926Z - info: Using extension authorization@2.2.5
+2020-01-15T17:41:19.930Z - info: Using extension child-templates@1.3.0
+2020-01-15T17:41:19.935Z - info: Using extension browser-client@2.2.1
+2020-01-15T17:41:19.937Z - info: Using extension licensing@2.1.2
+2020-01-15T17:41:19.940Z - info: Using extension data@2.1.0
+2020-01-15T17:41:19.941Z - info: Using extension pptx@0.4.1
+2020-01-15T17:41:19.950Z - info: Using extension version-control@1.3.2
+2020-01-15T17:41:20.032Z - info: Using extension reports@2.2.0
+2020-01-15T17:41:20.037Z - info: Using extension text@2.0.0
+2020-01-15T17:41:20.038Z - info: Using extension base@2.0.2
+2020-01-15T17:41:20.039Z - info: Using extension static-pdf@0.3.1
+2020-01-15T17:41:20.046Z - info: Using extension studio@2.6.6
+2020-01-15T17:41:20.092Z - info: Using extension pdf-utils@1.5.2
+2020-01-15T17:41:20.240Z - info: Using extension scripts@2.2.1
+2020-01-15T17:41:20.244Z - info: Using extension html-to-xlsx@2.4.1
+2020-01-15T17:41:20.341Z - info: html-to-xlsx detected chrome as available html engine
+2020-01-15T17:41:20.342Z - info: Using extension assets@1.5.1
+2020-01-15T17:41:20.352Z - info: Using extension studio-theme-dark@0.2.0
+2020-01-15T17:41:20.353Z - info: Using extension scheduling@2.1.1
+2020-01-15T17:41:20.383Z - info: Using extension xlsx@2.2.1
+2020-01-15T17:41:20.494Z - info: Using extension sample-template@2.4.0
+2020-01-15T17:41:20.496Z - info: Using extension resources@2.0.3
+2020-01-15T17:41:20.497Z - info: Using extension public-templates@2.1.0
+2020-01-15T17:41:20.503Z - info: Using fs provider for template store.
+2020-01-15T17:41:20.505Z - info: fs store is persisting using fs
+2020-01-15T17:41:20.506Z - info: fs store is synchronizing using fs
+2020-01-15T17:41:20.507Z - info: fs store is loading data
+2020-01-15T17:41:20.532Z - info: fs store is initialized successfully
+2020-01-15T17:41:20.553Z - info: Creating default express app.
+2020-01-15T17:41:20.593Z - info: jsreport server successfully started on http port: 5488
+2020-01-15T17:41:20.602Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-01-15T17:41:20.611Z - info: Verifying license key free
+2020-01-15T17:41:20.614Z - info: Using free license
+2020-01-15T17:41:20.621Z - info: reporter initialized
+2020-01-15T18:17:01.468Z - info: Starting rendering request 1 (user: null)
+2020-01-15T18:17:01.472Z - warn: Error when processing render request Template must contains _id, shortid or content attribute Error: Template must contains _id, shortid or content attribute
+    at module.exports (C:\Users\aruca\Documents\report\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (C:\Users\aruca\Documents\report\node_modules\jsreport-core\lib\reporter.js:299:12)
+    at AsyncFunction.<anonymous> (C:\Users\aruca\Documents\report\node_modules\jsreport-templates\lib\templates.js:36:22)
+    at C:\Users\aruca\Documents\report\node_modules\listener-collection\lib\listenerCollection.js:171:33
+    at C:\Users\aruca\Documents\report\node_modules\listener-collection\lib\listenerCollection.js:151:16
+    at tryCatcher (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:693:18)
+    at Async._drainQueue (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+2020-01-15T18:17:01.473Z - warn: Error during processing request at http://localhost:5488/api/report
+2020-01-15T18:18:15.075Z - info: Starting rendering request 2 (user: null)
+2020-01-15T18:18:15.077Z - warn: Error when processing render request Template must contains _id, shortid or content attribute Error: Template must contains _id, shortid or content attribute
+    at module.exports (C:\Users\aruca\Documents\report\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (C:\Users\aruca\Documents\report\node_modules\jsreport-core\lib\reporter.js:299:12)
+    at AsyncFunction.<anonymous> (C:\Users\aruca\Documents\report\node_modules\jsreport-templates\lib\templates.js:36:22)
+    at C:\Users\aruca\Documents\report\node_modules\listener-collection\lib\listenerCollection.js:171:33
+    at C:\Users\aruca\Documents\report\node_modules\listener-collection\lib\listenerCollection.js:151:16
+    at tryCatcher (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:693:18)
+    at Async._drainQueue (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (C:\Users\aruca\Documents\report\node_modules\listener-collection\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+2020-01-15T18:18:15.078Z - warn: Error during processing request at http://localhost:5488/api/report
+2020-01-15T18:19:39.572Z - info: Initializing jsreport@2.6.1 in development mode using configuration file: jsreport.config.json
+2020-01-15T18:19:39.574Z - info: Searching for available extensions in C:\Users\aruca\Documents\report\
+2020-01-15T18:19:39.582Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\aruca\Documents\report\
+2020-01-15T18:19:40.070Z - info: Found 35 extensions
+2020-01-15T18:19:40.316Z - info: Setting http-server strategy for rendering
+2020-01-15T18:19:40.542Z - info: Using extension handlebars@2.1.0
+2020-01-15T18:19:40.550Z - info: Using extension jsrender@2.1.1
+2020-01-15T18:19:40.553Z - info: Using extension templates@2.3.2
+2020-01-15T18:19:40.563Z - info: Using extension import-export@1.4.0
+2020-01-15T18:19:40.627Z - info: Using extension freeze@2.0.0
+2020-01-15T18:19:40.629Z - info: Using extension cli@2.1.1
+2020-01-15T18:19:40.631Z - info: Using extension express@2.5.0
+2020-01-15T18:19:40.792Z - info: Using extension debug@2.1.1
+2020-01-15T18:19:40.794Z - info: Using extension tags@2.3.0
+2020-01-15T18:19:40.796Z - info: Using extension docx@2.3.1
+2020-01-15T18:19:40.823Z - info: Using extension chrome-pdf@1.6.1
+2020-01-15T18:19:40.908Z - info: Using extension fs-store@2.6.0
+2020-01-15T18:19:41.173Z - info: Using extension authorization@2.2.5
+2020-01-15T18:19:41.181Z - info: Using extension child-templates@1.3.0
+2020-01-15T18:19:41.187Z - info: Using extension browser-client@2.2.1
+2020-01-15T18:19:41.195Z - info: Using extension licensing@2.1.2
+2020-01-15T18:19:41.199Z - info: Using extension data@2.1.0
+2020-01-15T18:19:41.201Z - info: Using extension pptx@0.4.1
+2020-01-15T18:19:41.213Z - info: Using extension version-control@1.3.2
+2020-01-15T18:19:41.309Z - info: Using extension reports@2.2.0
+2020-01-15T18:19:41.317Z - info: Using extension text@2.0.0
+2020-01-15T18:19:41.319Z - info: Using extension base@2.0.2
+2020-01-15T18:19:41.321Z - info: Using extension static-pdf@0.3.1
+2020-01-15T18:19:41.329Z - info: Using extension studio@2.6.6
+2020-01-15T18:19:41.408Z - info: Using extension pdf-utils@1.5.2
+2020-01-15T18:19:41.579Z - info: Using extension scripts@2.2.1
+2020-01-15T18:19:41.613Z - info: Using extension html-to-xlsx@2.4.1
+2020-01-15T18:19:41.724Z - info: html-to-xlsx detected chrome as available html engine
+2020-01-15T18:19:41.724Z - info: Using extension assets@1.5.1
+2020-01-15T18:19:41.737Z - info: Using extension studio-theme-dark@0.2.0
+2020-01-15T18:19:41.745Z - info: Using extension scheduling@2.1.1
+2020-01-15T18:19:41.779Z - info: Using extension xlsx@2.2.1
+2020-01-15T18:19:41.900Z - info: Using extension sample-template@2.4.0
+2020-01-15T18:19:41.903Z - info: Using extension resources@2.0.3
+2020-01-15T18:19:41.911Z - info: Using extension public-templates@2.1.0
+2020-01-15T18:19:41.917Z - info: Using fs provider for template store.
+2020-01-15T18:19:41.920Z - info: fs store is persisting using fs
+2020-01-15T18:19:41.920Z - info: fs store is synchronizing using fs
+2020-01-15T18:19:41.933Z - info: fs store is loading data
+2020-01-15T18:19:42.023Z - info: fs store is initialized successfully
+2020-01-15T18:19:42.045Z - info: Creating default express app.
+2020-01-15T18:19:42.066Z - info: jsreport server successfully started on http port: 5488
+2020-01-15T18:19:42.066Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-01-15T18:19:42.071Z - info: Verifying license key free
+2020-01-15T18:19:42.080Z - info: Using free license
+2020-01-15T18:19:42.084Z - info: reporter initialized
+2020-01-15T18:19:43.195Z - info: Starting rendering request 1 (user: null)
+2020-01-15T18:19:43.197Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:19:43.974Z - info: Rendering request 1 finished in 780 ms
+2020-01-15T18:29:06.102Z - info: Initializing jsreport@2.6.1 in development mode using configuration file: jsreport.config.json
+2020-01-15T18:29:06.104Z - info: Searching for available extensions in C:\Users\aruca\Documents\report\
+2020-01-15T18:29:06.109Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\aruca\Documents\report\
+2020-01-15T18:29:06.605Z - info: Found 35 extensions
+2020-01-15T18:29:06.854Z - info: Setting http-server strategy for rendering
+2020-01-15T18:29:07.075Z - info: Using extension handlebars@2.1.0
+2020-01-15T18:29:07.081Z - info: Using extension jsrender@2.1.1
+2020-01-15T18:29:07.083Z - info: Using extension templates@2.3.2
+2020-01-15T18:29:07.086Z - info: Using extension import-export@1.4.0
+2020-01-15T18:29:07.132Z - info: Using extension freeze@2.0.0
+2020-01-15T18:29:07.134Z - info: Using extension cli@2.1.1
+2020-01-15T18:29:07.136Z - info: Using extension express@2.5.0
+2020-01-15T18:29:07.276Z - info: Using extension debug@2.1.1
+2020-01-15T18:29:07.278Z - info: Using extension tags@2.3.0
+2020-01-15T18:29:07.281Z - info: Using extension docx@2.3.1
+2020-01-15T18:29:07.306Z - info: Using extension chrome-pdf@1.6.1
+2020-01-15T18:29:07.386Z - info: Using extension fs-store@2.6.0
+2020-01-15T18:29:07.636Z - info: Using extension authorization@2.2.5
+2020-01-15T18:29:07.641Z - info: Using extension child-templates@1.3.0
+2020-01-15T18:29:07.645Z - info: Using extension browser-client@2.2.1
+2020-01-15T18:29:07.648Z - info: Using extension licensing@2.1.2
+2020-01-15T18:29:07.651Z - info: Using extension data@2.1.0
+2020-01-15T18:29:07.652Z - info: Using extension pptx@0.4.1
+2020-01-15T18:29:07.660Z - info: Using extension version-control@1.3.2
+2020-01-15T18:29:07.742Z - info: Using extension reports@2.2.0
+2020-01-15T18:29:07.746Z - info: Using extension text@2.0.0
+2020-01-15T18:29:07.747Z - info: Using extension base@2.0.2
+2020-01-15T18:29:07.749Z - info: Using extension static-pdf@0.3.1
+2020-01-15T18:29:07.753Z - info: Using extension studio@2.6.6
+2020-01-15T18:29:07.816Z - info: Using extension pdf-utils@1.5.2
+2020-01-15T18:29:07.966Z - info: Using extension scripts@2.2.1
+2020-01-15T18:29:07.970Z - info: Using extension html-to-xlsx@2.4.1
+2020-01-15T18:29:08.066Z - info: html-to-xlsx detected chrome as available html engine
+2020-01-15T18:29:08.066Z - info: Using extension assets@1.5.1
+2020-01-15T18:29:08.075Z - info: Using extension studio-theme-dark@0.2.0
+2020-01-15T18:29:08.077Z - info: Using extension scheduling@2.1.1
+2020-01-15T18:29:08.109Z - info: Using extension xlsx@2.2.1
+2020-01-15T18:29:08.218Z - info: Using extension sample-template@2.4.0
+2020-01-15T18:29:08.220Z - info: Using extension resources@2.0.3
+2020-01-15T18:29:08.222Z - info: Using extension public-templates@2.1.0
+2020-01-15T18:29:08.227Z - info: Using fs provider for template store.
+2020-01-15T18:29:08.230Z - info: fs store is persisting using fs
+2020-01-15T18:29:08.231Z - info: fs store is synchronizing using fs
+2020-01-15T18:29:08.239Z - info: fs store is loading data
+2020-01-15T18:29:08.311Z - info: fs store is initialized successfully
+2020-01-15T18:29:08.324Z - info: Creating default express app.
+2020-01-15T18:29:08.344Z - info: jsreport server successfully started on http port: 5488
+2020-01-15T18:29:08.345Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-01-15T18:29:08.350Z - info: Verifying license key free
+2020-01-15T18:29:08.350Z - info: Using free license
+2020-01-15T18:29:08.355Z - info: reporter initialized
+2020-01-15T18:30:06.872Z - info: Starting rendering request 1 (user: null)
+2020-01-15T18:30:06.874Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:30:07.332Z - info: Rendering request 1 finished in 461 ms
+2020-01-15T18:30:23.960Z - info: Starting rendering request 2 (user: null)
+2020-01-15T18:30:23.963Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:30:24.300Z - info: Rendering request 2 finished in 344 ms
+2020-01-15T18:31:49.783Z - info: Starting rendering request 3 (user: null)
+2020-01-15T18:31:49.784Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:31:50.115Z - info: Rendering request 3 finished in 332 ms
+2020-01-15T18:32:31.557Z - info: Starting rendering request 4 (user: null)
+2020-01-15T18:32:31.558Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:32:31.860Z - info: Rendering request 4 finished in 302 ms
+2020-01-15T18:33:36.089Z - info: Starting rendering request 5 (user: null)
+2020-01-15T18:33:36.090Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:33:36.430Z - info: Rendering request 5 finished in 341 ms
+2020-01-15T18:34:44.955Z - info: Starting rendering request 6 (user: null)
+2020-01-15T18:34:44.956Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:34:45.309Z - info: Rendering request 6 finished in 353 ms
+2020-01-15T18:34:47.469Z - info: Starting rendering request 7 (user: null)
+2020-01-15T18:34:47.470Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:34:47.810Z - info: Rendering request 7 finished in 341 ms
+2020-01-15T18:35:13.530Z - info: Starting rendering request 8 (user: null)
+2020-01-15T18:35:13.531Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:35:13.871Z - info: Rendering request 8 finished in 341 ms
+2020-01-15T18:36:12.185Z - info: Starting rendering request 9 (user: null)
+2020-01-15T18:36:12.186Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:36:12.470Z - info: Rendering request 9 finished in 285 ms
+2020-01-15T18:36:57.058Z - info: Starting rendering request 10 (user: null)
+2020-01-15T18:36:57.060Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:36:57.345Z - info: Rendering request 10 finished in 287 ms
+2020-01-15T18:37:16.676Z - info: Starting rendering request 11 (user: null)
+2020-01-15T18:37:16.677Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:37:17.047Z - info: Rendering request 11 finished in 371 ms
+2020-01-15T18:38:31.751Z - info: Starting rendering request 12 (user: null)
+2020-01-15T18:38:31.752Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:38:32.040Z - info: Rendering request 12 finished in 290 ms
+2020-01-15T18:38:54.215Z - info: Starting rendering request 13 (user: null)
+2020-01-15T18:38:54.216Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:38:54.549Z - info: Rendering request 13 finished in 334 ms
+2020-01-15T18:39:11.748Z - info: Starting rendering request 14 (user: null)
+2020-01-15T18:39:11.749Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:39:11.754Z - warn: Error when processing render request Request data can not be an array. you should pass an object in request.data input Error: Request data can not be an array. you should pass an object in request.data input
+    at module.exports (C:\Users\aruca\Documents\report\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (C:\Users\aruca\Documents\report\node_modules\jsreport-core\lib\reporter.js:299:12)
+    at invokeRender (C:\Users\aruca\Documents\report\node_modules\jsreport-core\lib\render\render.js:48:20)
+    at module.exports (C:\Users\aruca\Documents\report\node_modules\jsreport-core\lib\render\render.js:134:11)
+2020-01-15T18:39:11.756Z - warn: Error during processing request at http://localhost:5488/api/report
+2020-01-15T18:39:41.892Z - info: Starting rendering request 15 (user: null)
+2020-01-15T18:39:41.893Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:39:42.267Z - info: Rendering request 15 finished in 376 ms
+2020-01-15T18:40:35.851Z - info: Starting rendering request 16 (user: null)
+2020-01-15T18:40:35.852Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:40:36.169Z - info: Rendering request 16 finished in 319 ms
+2020-01-15T18:41:32.325Z - info: Starting rendering request 17 (user: null)
+2020-01-15T18:41:32.326Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:41:32.649Z - info: Rendering request 17 finished in 325 ms
+2020-01-15T18:43:22.563Z - info: Starting rendering request 18 (user: null)
+2020-01-15T18:43:22.564Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:43:23.052Z - info: Rendering request 18 finished in 488 ms
+2020-01-15T18:48:48.390Z - info: Starting rendering request 19 (user: null)
+2020-01-15T18:48:48.391Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:48:51.552Z - info: Rendering request 19 finished in 3162 ms
+2020-01-15T18:49:25.141Z - info: Starting rendering request 20 (user: null)
+2020-01-15T18:49:25.143Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:49:25.794Z - info: Rendering request 20 finished in 654 ms
+2020-01-15T18:55:46.759Z - info: Starting rendering request 21 (user: null)
+2020-01-15T18:55:46.760Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:55:47.593Z - info: Rendering request 21 finished in 833 ms
+2020-01-15T18:59:16.739Z - info: Starting rendering request 22 (user: null)
+2020-01-15T18:59:16.741Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:59:17.544Z - info: Rendering request 22 finished in 805 ms
+2020-01-15T18:59:35.564Z - info: Starting rendering request 23 (user: null)
+2020-01-15T18:59:35.565Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:59:35.575Z - warn: Error when processing render request Error while executing templating engine. Parse error on line 60:
+...              <td>{{arrival[1]}}</td> 
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID' Error: Parse error on line 60:
+...              <td>{{arrival[1]}}</td> 
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (C:\Users\aruca\Documents\report\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (C:\Users\aruca\Documents\report\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at HandlebarsEnvironment.parse (C:\Users\aruca\Documents\report\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:43)
+    at compileInput (C:\Users\aruca\Documents\report\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:515:19)
+    at ret (C:\Users\aruca\Documents\report\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:524:18)
+    at C:\Users\aruca\Documents\report\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (C:\Users\aruca\Documents\report\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:133:20)
+    at VM.run (C:\Users\aruca\Documents\report\node_modules\vm2\lib\main.js:219:62)
+2020-01-15T18:59:35.576Z - warn: Error during processing request at http://localhost:5488/api/report
+2020-01-15T19:00:42.156Z - info: Starting rendering request 24 (user: null)
+2020-01-15T19:00:42.156Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T19:00:42.973Z - info: Rendering request 24 finished in 817 ms
+2020-01-15T19:01:12.924Z - info: Starting rendering request 25 (user: null)
+2020-01-15T19:01:12.925Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T19:01:13.714Z - info: Rendering request 25 finished in 791 ms
+2020-01-15T19:02:31.364Z - info: Starting rendering request 26 (user: null)
+2020-01-15T19:02:31.365Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T19:02:31.374Z - warn: Error when processing render request Error while executing templating engine. Parse error on line 60:
+...      <td>{{arrival.1}}</td>        
+-----------------------^
+Expecting 'ID', got 'NUMBER' Error: Parse error on line 60:
+...      <td>{{arrival.1}}</td>        
+-----------------------^
+Expecting 'ID', got 'NUMBER'
+    at Parser.parseError (C:\Users\aruca\Documents\report\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (C:\Users\aruca\Documents\report\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at HandlebarsEnvironment.parse (C:\Users\aruca\Documents\report\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:43)
+    at compileInput (C:\Users\aruca\Documents\report\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:515:19)
+    at ret (C:\Users\aruca\Documents\report\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:524:18)
+    at C:\Users\aruca\Documents\report\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (C:\Users\aruca\Documents\report\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:133:20)
+    at VM.run (C:\Users\aruca\Documents\report\node_modules\vm2\lib\main.js:219:62)
+2020-01-15T19:02:31.374Z - warn: Error during processing request at http://localhost:5488/api/report
+2020-01-15T19:03:43.116Z - info: Starting rendering request 27 (user: null)
+2020-01-15T19:03:43.117Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T19:03:44.061Z - info: Rendering request 27 finished in 945 ms
+2020-01-15T19:04:28.089Z - info: Starting rendering request 28 (user: null)
+2020-01-15T19:04:28.090Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T19:04:28.885Z - info: Rendering request 28 finished in 796 ms
+2020-01-15T19:05:07.374Z - info: Starting rendering request 29 (user: null)
+2020-01-15T19:05:07.375Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T19:05:08.170Z - info: Rendering request 29 finished in 796 ms
+2020-01-15T19:05:25.978Z - info: Starting rendering request 30 (user: null)
+2020-01-15T19:05:25.978Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T19:05:26.784Z - info: Rendering request 30 finished in 807 ms
+2020-01-15T19:05:35.631Z - info: Starting rendering request 31 (user: null)
+2020-01-15T19:05:35.632Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T19:05:36.468Z - info: Rendering request 31 finished in 840 ms
+2020-01-15T19:05:47.198Z - info: Starting rendering request 32 (user: null)
+2020-01-15T19:05:47.200Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T19:05:47.646Z - info: Rendering request 32 finished in 447 ms
+2020-01-15T19:06:02.421Z - info: Starting rendering request 33 (user: null)
+2020-01-15T19:06:02.422Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T19:06:03.178Z - info: Rendering request 33 finished in 757 ms
+2020-02-20T19:20:50.014Z - info: Initializing jsreport@2.6.1 in development mode using configuration file: jsreport.config.json
+2020-02-20T19:20:50.021Z - info: Searching for available extensions in C:\Users\aruca\Desktop\report\report\
+2020-02-20T19:20:50.026Z - info: Extensions location cache not found, crawling directories
+2020-02-20T19:20:51.281Z - info: Found 35 extensions
+2020-02-20T19:20:51.514Z - info: Setting http-server strategy for rendering
+2020-02-20T19:20:51.731Z - info: Using extension handlebars@2.1.0
+2020-02-20T19:20:51.738Z - info: Using extension jsrender@2.1.1
+2020-02-20T19:20:51.741Z - info: Using extension templates@2.3.2
+2020-02-20T19:20:51.750Z - info: Using extension import-export@1.4.0
+2020-02-20T19:20:51.799Z - info: Using extension freeze@2.0.0
+2020-02-20T19:20:51.802Z - info: Using extension cli@2.1.1
+2020-02-20T19:20:51.804Z - info: Using extension express@2.5.0
+2020-02-20T19:20:51.945Z - info: Using extension debug@2.1.1
+2020-02-20T19:20:51.952Z - info: Using extension tags@2.3.0
+2020-02-20T19:20:51.956Z - info: Using extension docx@2.3.1
+2020-02-20T19:20:51.990Z - info: Using extension chrome-pdf@1.6.1
+2020-02-20T19:20:52.070Z - info: Using extension fs-store@2.6.0
+2020-02-20T19:20:52.355Z - info: Using extension authorization@2.2.5
+2020-02-20T19:20:52.364Z - info: Using extension child-templates@1.3.0
+2020-02-20T19:20:52.370Z - info: Using extension browser-client@2.2.1
+2020-02-20T19:20:52.373Z - info: Using extension licensing@2.1.2
+2020-02-20T19:20:52.376Z - info: Using extension data@2.1.0
+2020-02-20T19:20:52.383Z - info: Using extension pptx@0.4.1
+2020-02-20T19:20:52.393Z - info: Using extension version-control@1.3.2
+2020-02-20T19:20:52.495Z - info: Using extension reports@2.2.0
+2020-02-20T19:20:52.501Z - info: Using extension text@2.0.0
+2020-02-20T19:20:52.504Z - info: Using extension base@2.0.2
+2020-02-20T19:20:52.506Z - info: Using extension static-pdf@0.3.1
+2020-02-20T19:20:52.515Z - info: Using extension studio@2.6.6
+2020-02-20T19:20:52.566Z - info: Using extension pdf-utils@1.5.2
+2020-02-20T19:20:52.716Z - info: Using extension scripts@2.2.1
+2020-02-20T19:20:52.722Z - info: Using extension html-to-xlsx@2.4.1
+2020-02-20T19:20:52.823Z - info: html-to-xlsx detected chrome as available html engine
+2020-02-20T19:20:52.824Z - info: Using extension assets@1.5.1
+2020-02-20T19:20:52.836Z - info: Using extension studio-theme-dark@0.2.0
+2020-02-20T19:20:52.838Z - info: Using extension scheduling@2.1.1
+2020-02-20T19:20:52.872Z - info: Using extension xlsx@2.2.1
+2020-02-20T19:20:52.983Z - info: Using extension sample-template@2.4.0
+2020-02-20T19:20:52.991Z - info: Using extension resources@2.0.3
+2020-02-20T19:20:52.998Z - info: Using extension public-templates@2.1.0
+2020-02-20T19:20:53.004Z - info: Using fs provider for template store.
+2020-02-20T19:20:53.007Z - info: fs store is persisting using fs
+2020-02-20T19:20:53.007Z - info: fs store is synchronizing using fs
+2020-02-20T19:20:53.009Z - info: fs store is loading data
+2020-02-20T19:20:53.114Z - info: fs store is initialized successfully
+2020-02-20T19:20:53.133Z - info: Creating default express app.
+2020-02-20T19:20:53.178Z - info: jsreport server successfully started on http port: 5488
+2020-02-20T19:20:53.189Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-02-20T19:20:53.200Z - info: Verifying license key free
+2020-02-20T19:20:53.205Z - info: Using free license
+2020-02-20T19:20:53.224Z - info: reporter initialized
+2020-02-20T19:22:30.877Z - info: Starting rendering request 1 (user: null)
+2020-02-20T19:22:30.879Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T19:22:34.323Z - info: Rendering request 1 finished in 3447 ms
+2020-02-20T19:26:03.266Z - info: fs store is loading data
+2020-02-20T19:26:03.500Z - info: Starting rendering request 2 (user: null)
+2020-02-20T19:26:03.501Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T19:26:04.302Z - info: Rendering request 2 finished in 802 ms
+2020-02-20T19:26:38.091Z - info: Starting rendering request 3 (user: null)
+2020-02-20T19:26:38.092Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T19:26:38.891Z - info: Rendering request 3 finished in 800 ms
+2020-02-20T19:37:16.115Z - info: Starting rendering request 4 (user: null)
+2020-02-20T19:37:16.116Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T19:37:19.095Z - info: Rendering request 4 finished in 2981 ms
+2020-02-20T19:37:27.413Z - info: Starting rendering request 5 (user: null)
+2020-02-20T19:37:27.414Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T19:37:28.173Z - info: Rendering request 5 finished in 761 ms
+2020-02-20T19:37:49.287Z - info: Starting rendering request 6 (user: null)
+2020-02-20T19:37:49.289Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T19:37:50.070Z - info: Rendering request 6 finished in 782 ms
+2020-02-20T19:39:48.729Z - info: Starting rendering request 7 (user: null)
+2020-02-20T19:39:48.730Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T19:39:49.507Z - info: Rendering request 7 finished in 777 ms
+2020-02-20T20:09:52.253Z - info: Verifying license key free
+2020-02-20T20:09:52.707Z - info: Starting one month enterprise trial
+2020-02-20T20:10:32.915Z - info: Starting rendering request 8 (user: null)
+2020-02-20T20:10:32.918Z - info: Rendering template { name: template, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:10:35.876Z - info: Rendering request 8 finished in 2962 ms
+2020-02-20T20:10:37.485Z - info: Starting rendering request 9 (user: null)
+2020-02-20T20:10:37.487Z - info: Rendering template { name: food, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T20:10:38.233Z - info: Rendering request 9 finished in 748 ms
+2020-02-20T20:12:11.833Z - info: Starting rendering request 10 (user: null)
+2020-02-20T20:12:11.835Z - info: Rendering template { name: food, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T20:12:12.649Z - info: Rendering request 10 finished in 817 ms
+2020-02-20T20:14:32.386Z - info: Starting rendering request 11 (user: null)
+2020-02-20T20:14:32.388Z - info: Rendering template { name: food, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:14:33.116Z - info: Rendering request 11 finished in 730 ms
+2020-02-20T20:15:51.952Z - info: Starting rendering request 12 (user: null)
+2020-02-20T20:15:51.955Z - info: Rendering template { name: food, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:15:52.682Z - info: Rendering request 12 finished in 730 ms
+2020-02-20T20:16:13.831Z - info: Starting rendering request 13 (user: null)
+2020-02-20T20:16:13.833Z - info: Rendering template { name: food, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:16:14.517Z - info: Rendering request 13 finished in 686 ms
+2020-02-20T20:17:02.922Z - info: Starting rendering request 14 (user: null)
+2020-02-20T20:17:02.923Z - info: Rendering template { name: food, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:17:03.643Z - info: Rendering request 14 finished in 721 ms
+2020-02-20T20:18:05.592Z - info: Starting rendering request 15 (user: null)
+2020-02-20T20:18:05.594Z - info: Rendering template { name: food, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T20:18:06.300Z - info: Rendering request 15 finished in 709 ms
+2020-02-20T20:27:36.671Z - info: Starting rendering request 16 (user: null)
+2020-02-20T20:27:36.673Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T20:27:37.456Z - info: Rendering request 16 finished in 785 ms
+2020-02-20T20:29:21.629Z - info: Starting rendering request 17 (user: null)
+2020-02-20T20:29:21.631Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:29:22.322Z - info: Rendering request 17 finished in 694 ms
+2020-02-20T20:29:40.588Z - info: Starting rendering request 18 (user: null)
+2020-02-20T20:29:40.591Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T20:29:41.231Z - info: Rendering request 18 finished in 644 ms
+2020-02-20T20:30:18.156Z - info: Starting rendering request 19 (user: null)
+2020-02-20T20:30:18.157Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:30:18.805Z - info: Rendering request 19 finished in 650 ms
+2020-02-20T20:33:01.115Z - info: Starting rendering request 20 (user: null)
+2020-02-20T20:33:01.117Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T20:33:01.133Z - warn: Error when processing render request Error while executing templating engine. if doesn't match each - 33:42 Error: if doesn't match each - 33:42
+    at validateClose (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\helpers.js:28:11)
+    at Object.prepareBlock (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\helpers.js:142:5)
+    at Object.anonymous (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:65:33)
+    at Parser.parse (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:367:48)
+    at HandlebarsEnvironment.parse (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:43)
+    at compileInput (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:515:19)
+    at ret (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:524:18)
+    at C:\Users\aruca\Desktop\report\report\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (C:\Users\aruca\Desktop\report\report\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+2020-02-20T20:33:01.134Z - warn: Error during processing request at http://localhost:5488/api/report/allergens
+2020-02-20T20:33:25.066Z - info: Starting rendering request 21 (user: null)
+2020-02-20T20:33:25.069Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T20:33:25.731Z - info: Rendering request 21 finished in 664 ms
+2020-02-20T20:33:31.682Z - info: Starting rendering request 22 (user: null)
+2020-02-20T20:33:31.683Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:33:32.389Z - info: Rendering request 22 finished in 707 ms
+2020-02-20T20:34:01.005Z - info: Starting rendering request 23 (user: null)
+2020-02-20T20:34:01.006Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T20:34:01.647Z - info: Rendering request 23 finished in 643 ms
+2020-02-20T20:34:05.371Z - info: Starting rendering request 24 (user: null)
+2020-02-20T20:34:05.373Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:34:06.055Z - info: Rendering request 24 finished in 684 ms
+2020-02-20T20:35:13.827Z - info: Starting rendering request 25 (user: null)
+2020-02-20T20:35:13.829Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T20:35:14.594Z - info: Rendering request 25 finished in 767 ms
+2020-02-20T20:35:15.632Z - info: Starting rendering request 26 (user: null)
+2020-02-20T20:35:15.634Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:35:16.325Z - info: Rendering request 26 finished in 694 ms
+2020-02-20T20:35:46.859Z - info: Starting rendering request 27 (user: null)
+2020-02-20T20:35:46.861Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T20:35:46.875Z - warn: Error when processing render request Error while executing templating engine. each doesn't match if - 29:11 Error: each doesn't match if - 29:11
+    at validateClose (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\helpers.js:28:11)
+    at Object.prepareBlock (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\helpers.js:142:5)
+    at Object.anonymous (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:65:33)
+    at Parser.parse (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:367:48)
+    at HandlebarsEnvironment.parse (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:43)
+    at compileInput (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:515:19)
+    at ret (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:524:18)
+    at C:\Users\aruca\Desktop\report\report\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (C:\Users\aruca\Desktop\report\report\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+2020-02-20T20:35:46.876Z - warn: Error during processing request at http://localhost:5488/api/report/allergens
+2020-02-20T20:39:01.107Z - info: Starting rendering request 28 (user: null)
+2020-02-20T20:39:01.109Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T20:39:01.782Z - info: Rendering request 28 finished in 675 ms
+2020-02-20T20:39:04.333Z - info: Starting rendering request 29 (user: null)
+2020-02-20T20:39:04.334Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:39:05.104Z - info: Rendering request 29 finished in 770 ms
+2020-02-20T20:39:58.290Z - info: Starting rendering request 30 (user: null)
+2020-02-20T20:39:58.293Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:39:59.068Z - info: Rendering request 30 finished in 777 ms
+2020-02-20T20:45:54.460Z - info: Starting rendering request 31 (user: null)
+2020-02-20T20:45:54.462Z - info: Rendering template { name: store, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:45:57.507Z - info: Rendering request 31 finished in 3047 ms
+2020-02-20T20:46:06.627Z - info: Starting rendering request 32 (user: null)
+2020-02-20T20:46:06.628Z - info: Rendering template { name: food, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:46:07.357Z - info: Rendering request 32 finished in 731 ms
+2020-02-20T20:46:11.349Z - info: Starting rendering request 33 (user: null)
+2020-02-20T20:46:11.351Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:46:12.075Z - info: Rendering request 33 finished in 726 ms
+2020-02-20T20:46:50.835Z - info: Starting rendering request 34 (user: null)
+2020-02-20T20:46:50.837Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:46:51.552Z - info: Rendering request 34 finished in 717 ms
+2020-02-20T20:51:49.688Z - info: Starting rendering request 35 (user: null)
+2020-02-20T20:51:49.690Z - info: Rendering template { name: allergens, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:51:50.612Z - info: Rendering request 35 finished in 924 ms
+2020-02-20T20:51:58.770Z - info: Starting rendering request 36 (user: null)
+2020-02-20T20:51:58.773Z - info: Rendering template { name: store, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:51:59.519Z - info: Rendering request 36 finished in 749 ms
+2020-02-20T20:52:03.702Z - info: Starting rendering request 37 (user: null)
+2020-02-20T20:52:03.704Z - info: Rendering template { name: food, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:52:04.444Z - info: Rendering request 37 finished in 742 ms
+2020-02-20T20:59:24.350Z - info: Starting rendering request 38 (user: null)
+2020-02-20T20:59:24.352Z - info: Rendering template { name: client, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:59:27.442Z - info: Rendering request 38 finished in 3090 ms
+2020-02-20T20:59:31.357Z - info: Starting rendering request 39 (user: null)
+2020-02-20T20:59:31.358Z - info: Rendering template { name: deliver, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T20:59:32.041Z - info: Rendering request 39 finished in 685 ms
+2020-02-20T21:04:00.635Z - info: Starting rendering request 40 (user: null)
+2020-02-20T21:04:00.636Z - info: Rendering template { name: client, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T21:04:01.757Z - info: Rendering request 40 finished in 1123 ms
+2020-02-20T21:05:00.678Z - info: Starting rendering request 41 (user: null)
+2020-02-20T21:05:00.680Z - info: Rendering template { name: client, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T21:05:01.381Z - info: Rendering request 41 finished in 704 ms
+2020-02-20T21:05:46.105Z - info: Starting rendering request 42 (user: null)
+2020-02-20T21:05:46.107Z - info: Rendering template { name: client, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T21:05:46.874Z - info: Rendering request 42 finished in 770 ms
+2020-02-20T21:06:01.605Z - info: Starting rendering request 43 (user: null)
+2020-02-20T21:06:01.607Z - info: Rendering template { name: deliver, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T21:06:02.255Z - info: Rendering request 43 finished in 651 ms
+2020-02-20T21:10:44.261Z - info: Starting rendering request 44 (user: null)
+2020-02-20T21:10:44.264Z - info: Rendering template { name: deliver, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T21:10:44.279Z - warn: Error when processing render request Error while executing templating engine. Parse error on line 57:
+...              <td>{{Price-(Price*Discoun
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID' Error: Parse error on line 57:
+...              <td>{{Price-(Price*Discoun
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at HandlebarsEnvironment.parse (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:43)
+    at compileInput (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:515:19)
+    at ret (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:524:18)
+    at C:\Users\aruca\Desktop\report\report\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (C:\Users\aruca\Desktop\report\report\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:133:20)
+    at VM.run (C:\Users\aruca\Desktop\report\report\node_modules\vm2\lib\main.js:219:62)
+2020-02-20T21:10:44.279Z - warn: Error during processing request at http://localhost:5488/api/report/deliver
+2020-02-20T21:11:10.253Z - info: Starting rendering request 45 (user: null)
+2020-02-20T21:11:10.256Z - info: Rendering template { name: deliver, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T21:11:10.268Z - warn: Error when processing render request Error while executing templating engine. Parse error on line 57:
+...              <td>{{price-(price*discoun
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID' Error: Parse error on line 57:
+...              <td>{{price-(price*discoun
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at HandlebarsEnvironment.parse (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:43)
+    at compileInput (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:515:19)
+    at ret (C:\Users\aruca\Desktop\report\report\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:524:18)
+    at C:\Users\aruca\Desktop\report\report\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (C:\Users\aruca\Desktop\report\report\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:133:20)
+    at VM.run (C:\Users\aruca\Desktop\report\report\node_modules\vm2\lib\main.js:219:62)
+2020-02-20T21:11:10.269Z - warn: Error during processing request at http://localhost:5488/api/report/deliver
+2020-02-20T21:12:33.757Z - info: Starting rendering request 46 (user: null)
+2020-02-20T21:12:33.759Z - info: Rendering template { name: deliver, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-02-20T21:12:34.599Z - info: Rendering request 46 finished in 842 ms
+2020-02-20T21:12:37.141Z - info: Starting rendering request 47 (user: null)
+2020-02-20T21:12:37.142Z - info: Rendering template { name: deliver, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T21:12:37.857Z - info: Rendering request 47 finished in 716 ms
+2020-02-20T21:13:00.531Z - info: Starting rendering request 48 (user: null)
+2020-02-20T21:13:00.533Z - info: Rendering template { name: deliver, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T21:13:01.254Z - info: Rendering request 48 finished in 724 ms
+2020-02-20T21:13:28.713Z - info: Starting rendering request 49 (user: null)
+2020-02-20T21:13:28.714Z - info: Rendering template { name: deliver, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T21:13:29.453Z - info: Rendering request 49 finished in 740 ms
+2020-02-20T21:14:42.774Z - info: Starting rendering request 50 (user: null)
+2020-02-20T21:14:42.776Z - info: Rendering template { name: deliver, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T21:14:43.489Z - info: Rendering request 50 finished in 715 ms
+2020-02-20T21:15:18.857Z - info: Starting rendering request 51 (user: null)
+2020-02-20T21:15:18.859Z - info: Rendering template { name: deliver, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-02-20T21:15:19.592Z - info: Rendering request 51 finished in 735 ms
